@@ -1,12 +1,11 @@
-*.class
+/*My First Program in Java*/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+class Greeting {
+public static void main (String[] args) {
+	String greeting = " Hello, Salute, Guten Tag, Ni Hao, Hola, Susrekal, Ciao!";
+	System.out.println(greeting);
+	}
+}
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+/*End Result: All of the greetings above should appear*/
+/*All data will be complied and shown on screen based on the ide and compiler*/
